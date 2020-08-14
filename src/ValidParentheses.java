@@ -36,6 +36,6 @@ public class ValidParentheses {
             }
         }
 
-        return (charStack.empty() ? true : false);
+        return charStack.empty();
     }
 }
